@@ -1,0 +1,19 @@
+uuid: 8257035c-88ff-487c-92fc-26e6254c93fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.recipes
+id: node.recipes.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: recipes
+label: ingredients
+description: 'Add one ingredient per line. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
