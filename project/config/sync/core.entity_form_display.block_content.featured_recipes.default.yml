@@ -1,0 +1,31 @@
+uuid: 3cb8c568-6d4b-47a3-82a7-5ee9d4ee69d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_recipes
+    - field.field.block_content.featured_recipes.field_featured_recipes
+id: block_content.featured_recipes.default
+targetEntityType: block_content
+bundle: featured_recipes
+mode: default
+content:
+  field_featured_recipes:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
