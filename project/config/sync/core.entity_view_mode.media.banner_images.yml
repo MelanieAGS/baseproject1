@@ -1,0 +1,10 @@
+uuid: a6517104-55f4-47e5-909e-7f5414040c42
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.banner_images
+label: 'Banner images'
+targetEntityType: media
+cache: true
