@@ -1,0 +1,25 @@
+uuid: c8d5bad6-8465-47c9-abe6-29f05def8c1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.contact
+  module:
+    - system
+  theme:
+    - olivero
+id: contact
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:contact'
+settings:
+  id: 'system_menu_block:contact'
+  label: Contact
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

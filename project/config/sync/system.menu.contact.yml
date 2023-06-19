@@ -1,0 +1,8 @@
+uuid: 9e5703c9-e730-405f-b8ff-e1fe0d03773f
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: 'Mediación Virtual'
+description: ''
+locked: false
